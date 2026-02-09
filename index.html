@@ -1,14 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxing Hub</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <header>
+        <h1>Boxing Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to the Ring</h2>
+                <p>Your one-stop destination for everything boxing.</p>
+                <a href="#" class="cta-button">Join the Community</a>
+            </div>
+        </section>
+
+        <section class="featured-news">
+            <h2>Latest News</h2>
+            <!-- News articles will be dynamically inserted here -->
+        </section>
+
+        <section class="forum-preview">
+            <h2>Community Forum</h2>
+            <!-- Forum topics will be dynamically inserted here -->
+        </section>
+
+        <section class="upcoming-fights">
+            <h2>Upcoming Fights</h2>
+            <!-- Fight schedule will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Boxing Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
